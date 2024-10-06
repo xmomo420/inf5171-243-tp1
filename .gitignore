@@ -64,3 +64,6 @@ cmake-build-relwithdebinfo
 
 # Fichiers générés par callgrind
 callgrind.out.*
+
+# Images générées
+results/*.png
