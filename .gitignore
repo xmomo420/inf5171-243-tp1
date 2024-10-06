@@ -59,7 +59,8 @@ CMakeLists.txt.user
 .idea
 
 # Répertoire cmake
-cmake-build-*
+cmake-build-release
+cmake-build-relwithdebinfo
 
 # Fichiers générés par callgrind
 callgrind.out.*
