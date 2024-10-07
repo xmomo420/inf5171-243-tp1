@@ -106,7 +106,7 @@ void PotentialParallel::save_solution(std::ostream &ofs, ColorMap &cmap) {
               for (int j = 0; j < m_width; ++j) {
               const double v = m_sol[IDX2(i, j, m_width)];
               const png::rgb_pixel pix = cmap.get_color(v);
-                  // inversion axe y pour correspondre au plan cartésien
+                  // Inversion axe y pour correspondre au plan cartésien
                   m_img.set_pixel(j, m_height - i - 1, pix);
               }
           }
